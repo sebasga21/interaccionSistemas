@@ -1,0 +1,70 @@
+html
+{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+
+body
+{
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    display: block;
+    background-color: whitesmoke;
+}
+
+.cabecera
+{
+    width: 100%;
+    height: 140px;
+    margin: 0px;
+    padding: 0px;
+    background: linear-gradient(to right, black 5%, purple 200%);
+    display: flex;
+    align-items: center;
+    padding-left: 50px;
+    box-shadow: 0 0 5px black;
+}
+
+.cabecera h3
+{
+    color: white;
+    font-family: Consolas;
+    font-size: 30px;
+    padding-left: 25px;
+}
+
+.cabecera img
+{
+    width: 70spx;
+    height: 70px;
+}
+
+.proyectos
+{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+iframe
+{
+    width: 90%;
+    height: 500px;
+    margin-top: 50px;
+}
